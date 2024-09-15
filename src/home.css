@@ -1,0 +1,787 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mobilenavbar{
+    display: none;
+}
+
+.mynav{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 90px;
+    align-items: center;
+    z-index:1000;
+    position: fixed;
+    width: 100%;
+}
+
+.navimage{
+    width: 180px;
+}
+
+.navlinkdiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.blockdiv{
+    min-width:85px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin-right: 10px;
+}
+
+.blockdiv i:hover{
+    color:#c2082f;
+}
+
+.blockdiv p{
+    color:#656768;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size:13px;
+}
+
+.blockdiv p:hover{
+    color:#c2082f;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size:13px;
+    text-decoration: none;
+}
+
+.blockicon{
+    font-size:22px;
+    color:#001c39;
+}
+.hero{
+    min-height: 550px;
+    background-image: url("https://ffin.com/cms/getmedia/42a74c61-144e-4d69-83f6-44d9c2100510/v2-Find-Home-Fall.jpg");
+
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.hero::before{
+    position: absolute;
+    width: 55%;
+    top: 0;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    content: '';
+    background: linear-gradient(to right,#001c39 33%,rgba(0,28,57,.5) 82%,rgba(0,28,57,0) 100%);
+}
+
+
+.firstdiv{
+    z-index: 100;
+    width: 30%;
+    color:white;
+}
+
+.firsthead{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.firstpara{
+    text-align: left;
+    font-size:22px;
+}
+
+.firstbtn{
+    background: 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 20px;
+    
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.firstbtn:hover{
+    background-color: #c2082f;
+    color:white;
+    border: none;
+}
+
+.seconddiv{
+    width: 25%;
+    height: 300px;
+    background-color: #00396f;
+}
+
+.secondhead{
+    color:white;
+    font-size:23px;
+}
+
+
+.secondbtn{
+    background-color: #c2082f;
+    color:white;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.secondbtn:hover{
+    color: #00396f;
+    background-color:white;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.secondsection{
+    background-color: white;
+    height: 500px;
+    padding: 70px 70px;
+}
+
+.sectiontwohead{
+    text-align: center;
+}
+
+.sectiontwopara{
+    text-align: center;
+    font-size:17px;
+   
+    font-weight: 500;
+}
+
+.secondsectionbtn{
+    width: 350px;
+    color:white;
+    background-color: #c2082f;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.secondsectionbtn:hover{
+    width: 350px;
+    color:white;
+    background-color: #00396f;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.secondflex{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.icondiv{
+    text-align: center;
+}
+
+.iconimage{
+    width:90px;
+}
+
+.icontext{
+    font-size: 20px;
+}
+
+.mobilediv{
+    height:315px;
+    background-color: white;
+    padding: 0px;
+}
+
+.meetingdiv{
+    height:315px;
+    background-color: white;
+    padding: 0px;
+}
+.mobileimage{
+    width: inherit;
+}
+
+.meetingimage{
+    width: inherit;
+}
+
+.textcol{
+    padding:80px 40px;
+}
+
+.textcolhead{
+    font-weight: 500;
+}
+
+.textcolpara{
+    font-size: 17px;
+}
+
+.textcolbtn{
+    color:white;
+    font-weight: 600;
+    background-color: #00396f;
+    font-size: 18px;
+
+}
+
+.textcolbtn:hover{
+    color:white;
+    font-weight: 600;
+    background-color: #c2082f;
+    font-size: 16px;
+
+}
+
+.newdiv{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.partner{
+    height: 580px;
+    background-color: white;
+    padding:70px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.parnterdiv{
+    width: 30%;
+}
+
+.partnerbtn{
+    color:white;
+    font-weight: 600;
+    background-color: #c2082f;
+    font-size: 16px;
+}
+
+.partnerbtn:hover{
+    color:white;
+    font-weight: 600;
+    background-color: #00396f;
+    font-size: 16px;
+}
+
+.partnertitle{
+    font-size:25px;
+}
+
+.footer{
+    min-height:550px;
+    background-color: #00396f;
+    padding: 80px 0px;
+}
+
+.footflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footflexdiv{
+    width:30%;
+}
+
+.footerlogo{
+    width:250px;
+}
+
+.flexdivhead{
+    font-weight: 600;
+    color:white;
+}
+
+.footerlist{
+    color:white;
+    list-style-type: none;
+}
+
+.footerlist li{
+    margin-top: 13px;
+}
+
+.footerlink{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    
+    font-weight: 600;
+}
+
+.bolddiv{
+    border: 3px solid white;
+}
+
+.bolddivpara{
+    color:white;
+}
+.bolddivparatwo{
+    color:white;
+    font-size:15px;
+}
+
+.lastdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.lasdivfirst{
+    width:30%;
+}
+
+.formsection{
+    background-color: white;
+    min-height: 630px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.formdiv{
+    background-color: white;
+    height: inherit;
+}
+
+.formhead{
+    font-weight: 500;
+}
+
+.formbtn{
+    width:250px;
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    background-color: #c2082f;
+    font-size: 18px;
+}
+
+.formbtn:hover{
+    width:250px;
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    background-color: #00396f;
+    font-size: 18px;
+}
+
+.emailsection{
+    min-height: 400px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    background-color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .mynav{
+        display: none;
+    }
+
+    .hero{
+        min-height: 500px;
+        background-image: url("https://ffin.com/cms/getmedia/42a74c61-144e-4d69-83f6-44d9c2100510/v2-Find-Home-Fall.jpg");
+    
+        background-size: cover;
+        background-position: 50% 50%;
+        position: relative;
+    
+        display: flex;
+        flex-direction: column;
+        padding: 100px 30px;
+     
+      
+       
+       
+    }
+    
+    .hero::before{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: auto;
+        left: 0;
+        bottom: 0;
+        content: '';
+        background: linear-gradient(to right,#001c39 33%,rgba(0,28,57,.5) 82%,rgba(0,28,57,0) 100%);
+    }
+    
+    
+    .firstdiv{
+        z-index: 100;
+        width: 100%;
+        display: block;
+        color:white;
+    }
+    
+    .firsthead{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    
+    .firstpara{
+        text-align: left;
+        font-size:18px;
+    }
+    
+    .firstbtn{
+        background: 0 0;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 2px;
+        display: inline-block;
+        font-size: 16px;
+        
+        font-family: "Roboto Condensed",sans-serif;
+    }
+
+
+    .seconddiv{
+        width: 100%;
+        height: 300px;
+        background-color: #00396f;
+        z-index: 100;
+        margin-top: 40px;
+    }
+    
+    .secondhead{
+        color:white;
+        font-size:20px;
+    }
+    
+    
+    .secondbtn{
+        background-color: #c2082f;
+        color:white;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    
+    .secondbtn:hover{
+        color: #00396f;
+        background-color:white;
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+
+
+
+
+.secondsection{
+    background-color: white;
+    min-height: 600px;
+    padding: 70px 70px;
+}
+
+.sectiontwohead{
+    text-align: center;
+    font-size:30px;
+}
+
+.sectiontwopara{
+    text-align: center;
+    font-size:15px;
+   
+    font-weight: 500;
+}
+
+.secondsectionbtn{
+    width: 300px;
+    color:white;
+    background-color: #c2082f;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.secondsectionbtn:hover{
+    width: 350px;
+    color:white;
+    background-color: #00396f;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.secondflex{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.icondiv{
+    text-align: center;
+}
+
+.iconimage{
+    width:50px;
+}
+
+.icontext{
+    font-size: 15px;
+}
+    
+
+
+
+
+
+.mobilediv{
+    min-height:400px;
+    background-color: white;
+    padding: 0px;
+
+}
+
+.meetingdiv{
+    min-height:600px;
+    background-color: white;
+    padding: 0px;
+}
+.mobileimage{
+    width: 70%;
+}
+
+.meetingimage{
+    width: 70%;
+   height: inherit;
+}
+
+.imagecol{
+    text-align: center;
+}
+
+.textcol{
+    padding:80px 40px;
+    display: block;
+}
+
+.textcolhead{
+    font-weight: 500;
+    font-size:30px;
+}
+
+.textcolpara{
+    font-size: 15px;
+}
+
+.textcolbtn{
+    color:white;
+    font-weight: 600;
+    background-color: #00396f;
+    font-size: 15px;
+
+}
+
+.textcolbtn:hover{
+    color:white;
+    font-weight: 600;
+    background-color: #c2082f;
+    font-size: 15px;
+
+}
+
+
+.newdiv{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.partner{
+    min-height: 1500px;
+    background-color: white;
+    padding:70px 50px;
+    display: block;
+    
+}
+
+.parnterdiv{
+    width: 100%;
+    text-align: center;
+}
+
+.partnerbtn{
+    color:white;
+    font-weight: 600;
+    background-color: #c2082f;
+    font-size: 15px;
+}
+
+.partnerbtn:hover{
+    color:white;
+    font-weight: 600;
+    background-color: #00396f;
+    font-size: 15px;
+}
+
+.partnertitle{
+    font-size:20px;
+}
+
+
+
+
+
+
+
+.footer{
+    min-height:800px;
+    background-color: #00396f;
+    padding: 80px 0px;
+}
+
+.footflex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footflexdiv{
+    width:100%;
+    text-align: center;
+    padding:20px 0px;
+}
+
+.footerlogo{
+    width:180px;
+}
+
+.flexdivhead{
+    font-weight: 600;
+    color:white;
+}
+
+.footerlist{
+    color:white;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footerlist li{
+    margin-top: 13px;
+}
+
+.footerlink{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+    
+    font-weight: 600;
+}
+
+
+
+.bolddiv{
+    border: 3px solid white;
+}
+
+.bolddivpara{
+    color:white;
+}
+.bolddivparatwo{
+    color:white;
+    font-size:15px;
+}
+
+.lastdiv{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.lasdivfirst{
+    width:100%;
+}
+
+.mobilenavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+   
+    padding:0px 40px;
+    
+    z-index:1000;
+    overflow: hidden;
+
+   
+    
+}
+
+.navimagetwo{
+    width:120px;
+}
+
+.togglediv{
+    height: 300px;
+    background-color:#00396f;
+    position: relative;
+    z-index: 2000;
+}
+
+.toggleimage{
+    width:50px;
+}
+.coll{
+    background-color: red;
+    height: 400px;
+color: white;
+z-index: 1000;
+}
+    
+  }
